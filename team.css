@@ -1,0 +1,148 @@
+/*general*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+    color: white;
+}
+/* End of General -------------*/
+
+/*Hero*/
+.hero {
+   
+    width: 100%;
+    color: white;
+}
+
+.hero > .header-section {
+ 
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 20vh;
+    margin-left: 2rem;
+}
+
+.hero > .header-section > .title {
+    font-size: 81px;
+    display: flex;
+}
+.hero > .header-section > .title > img{
+    font-size: 81px;
+    height: 72px;
+    width: 81px;
+    margin-top: 1.6rem;
+}
+
+.title-second {
+    font-weight: 810;
+    color: transparent !important;
+    font-weight: 900;
+    -webkit-text-stroke: 1.5px #d7385e;
+}
+
+.hero > .header-section > .small-title {
+    color: #afafaf;
+    margin-top: -9px;
+}
+/*End of  hero section --------------*/
+
+/*Start of body section*/
+
+.team-name {
+    font-size: 48px;
+    padding: 15px 0;
+    margin:  1rem 0;
+}
+.team-name::after {
+  background: #d7385e;
+  content: "";
+  width: 45%;
+  height: 3px;
+  display: block;
+  margin-top: 15px;
+  background: #d7385e;
+  border-radius: 50%;
+}
+
+/*Start of card*/
+.section-team{
+    margin: 6rem 0;
+    padding-bottom: 6rem;
+
+}
+
+
+
+
+
+.single-person {
+    margin-top: 30px;
+    height: 25rem;
+    width: 20rem;
+    padding: 36px;
+    background: linear-gradient(#0c0f20f3 0%, #1b2735 100%);
+    border-radius: 2.5rem;
+        
+    clip-path: polygon(0 15%, 51% 0, 100% 15%, 100% 82%, 53% 100%, 0 85%);
+    text-align: center;
+}
+
+.section-team .single-person:hover {
+        background: linear-gradient(#10142cbb 0%, #1b2735b4 100%);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding 0.3s;
+}
+
+.section-team .single-person .person-image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+.section-team .single-person .person-info .full-name {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -1.5rem;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -3rem;
+    
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+    color: #fff;
+}
+
+.social{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.fab{
+    font-size: 1rem;
+    margin: 3px;
+}
